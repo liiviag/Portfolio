@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d4d24cbd89.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d4d24cbd89.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
@@ -13,6 +14,8 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <title>Portfolio - Ana Livia</title>
 </head>
 <body>
@@ -38,6 +41,9 @@
         </nav>
     </header>
     <main>
+        <a href="#" class="back">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
         <section class="home" id="home">
         <img src="./img/eclipse.png" alt="foto" class="home__foto">   
         <div>
@@ -90,9 +96,87 @@
                 </div>
             </div>
         </section>
-        <section class="projetos" id="projetos"> </section>
-        <section class="contatos" id="contatos"> </section>
+        <section class="projetos" id="projetos"> 
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="#" class="card">
+                    <img src="./img/projeto-dracula.png" alt="">
+                </a>
+            <div class="card-container">
+                <a href="#" class="card">
+                    <img src="./img/projeto-pikachu.png" alt="">
+                    </a>
+            <div class="card-container">
+                <a href="#" class="card">
+                    <img src="./img/projeto-valorant.png" alt="">
+                    </a>
+            <div class="card-container">
+                <a href="#" class="card">
+                    <img src="./img/screenshot.png" alt="" >
+                </a>
+            </div>
+        </section>
+        <section class="contatos" id="contatos"> 
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                  <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>                    
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(11)963885777</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>@liiviggularte@gmail.com</span>
+                    </div>  
+                </li> 
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rua Daniela, 73
+                            Fátima - Jandira</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li class="social-item">
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-twitter-square"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-linkedin"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-github-square"></i>
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3 class="link-title">Links</h3>
+                </li>
+                <li>
+                    <a href="#home">Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre MIm</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contatos">Contatos</a>
+                </li>
+            </ul>
+        </section>
     </main>
-    <footer>footer</footer>
+    <footer>
+        Todos os Direitos Reservados | 2022 | Ana Lívia
+    </footer>
 </body>
 </html>
