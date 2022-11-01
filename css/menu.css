@@ -11,3 +11,25 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+
+/*Mobile*/
+@media (max-width:960px) {
+    .menu{
+        display: none;
+    }
+    .menu_responsivo{
+        margin: 10px;
+        display: flex;
+        font-size: 1.5rem;
+        text-align: right;
+    }
+}
+/*Tablet*/
+@media (max-width:640px) {
+
+    .menu{
+        display: none;
+    }
+
+    
+}

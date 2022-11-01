@@ -15,3 +15,16 @@
     font-weight: 700;
     color: var(--primary-color);
 }
+
+/*Mobile*/
+@media (max-width:960px) {
+   
+    
+}
+
+/*Tablet*/
+@media (max-width:640px) {
+    
+    
+    
+}

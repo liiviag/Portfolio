@@ -8,13 +8,38 @@
     align-items: center;
     gap: 48px;
 }
-
+.menu_responsivo{
+    display: none;
+}
 .home__text{
     font-size: 2.25rem;
 }
-
 .home__nome {
     font-size: 4rem;
     font-weight: 700;
     color: var(--primary-color);
+}
+
+/*Tablet*/
+@media (max-width:960px) {
+    
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+    }  
+
+    .menu_responsivo{
+        display: flex;
+        margin-right: 30px;
+    }
+}
+
+/*Mobile*/
+@media (max-width:640px) {
+
+    
+    
 }

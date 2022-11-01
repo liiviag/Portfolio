@@ -73,23 +73,23 @@ footer{
     opacity: 1;
 }
 
-/*Tablet*/
-@media (max-widht:960px) {
-
-    ul.menu{
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        font-size: 5px;
-    }
-    
-    .home_foto{
-        display: flex;
-    }
-}
-
 /*Mobile*/
-@media (max-widht:640px) {
+@media (max-width:960px) {
 
+    header{
+        max-width: 700px;
+        width: 100%;
+    }
+   
     
+
+/*Tablet*/
+@media (max-width:640px) {
+    
+    header{
+        max-width: 400px;
+        width: 100%;
+    }
+    
+}
 }

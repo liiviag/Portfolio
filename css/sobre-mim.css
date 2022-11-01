@@ -73,3 +73,25 @@
 .skills__icon span {
     font-size: 1rem;
 }
+
+/*Mobile*/
+@media (max-width:960px) {
+    
+    .sobre-mim{
+        display: flex;
+        flex-direction: column;
+        height: 110vh;
+        margin-left: 50px;
+        
+         }
+    .skills__icons{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 40vh;  
+        
+        }
+    
+/*Tablet*/
+@media (max-width:640px) {}
+}
